@@ -1,0 +1,7 @@
+.pieDePagina-formulario{
+
+    display: flex;
+    flex-direction: column;
+    width: 38vw;
+
+}

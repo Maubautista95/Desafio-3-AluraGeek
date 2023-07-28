@@ -1,0 +1,27 @@
+.pieDePagina-field:first-child{
+
+    height: 56px;
+    
+
+}
+
+.pieDePagina-field{
+
+    height: 82px;
+    font-size: 1rem;
+    margin-bottom: 0.66rem;
+    box-shadow: 0 0.8px 0 lightgrey;
+    padding-left: 0.45rem;
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    font-family: Raleway, sans-serif;
+}
+
+
+
+
+.pieDePagina-field::placeholder{
+
+    font-family: Raleway, sans-serif;
+    font-size: 0.75rem;
+}

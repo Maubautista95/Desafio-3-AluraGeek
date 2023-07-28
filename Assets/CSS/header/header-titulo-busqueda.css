@@ -1,0 +1,8 @@
+.header-titulo-busqueda{
+
+    display: flex;
+    justify-content: space-between;
+    width: 41.67vw;
+    align-items: center;
+
+}

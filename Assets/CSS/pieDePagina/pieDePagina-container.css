@@ -1,0 +1,9 @@
+.pieDePagina-container{
+    height: 66%;
+    vertical-align: middle;
+    margin: 0 6vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+       
+}

@@ -1,0 +1,10 @@
+.pieDePagina{
+    
+    background: #eaf2fd;
+    width: 100vw;
+    height: 26vw;
+    
+    display: flex;
+    align-items: center;
+
+}

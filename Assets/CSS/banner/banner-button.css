@@ -1,0 +1,13 @@
+.banner-button{
+
+    margin-top: 1rem;
+    width: 129px;
+    height: 51px;
+    color: white;
+    background: #2A7AE4;
+    border: #2A7AE4;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px black;
+
+}
