@@ -7,3 +7,15 @@
     justify-content: space-around;
        
 }
+
+@media (max-width: 384px){
+
+    .pieDePagina-container{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+
+
+}

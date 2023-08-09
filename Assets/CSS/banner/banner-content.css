@@ -2,6 +2,20 @@
 
     margin: 0 8.5vw;
     position: relative;
-    bottom: 15rem;
+    bottom: 11.0rem;
+
+}
+
+
+@media (max-width: 420px) {
+    
+
+    .banner-content{
+        
+        bottom: 8rem;
+        margin: 0 7vw;
+
+    }
+
 
 }

@@ -3,3 +3,13 @@
     font-weight: 900;
     margin-bottom: 0.55rem;
 }
+
+@media (max-width: 384px) {
+
+
+    .pieDePagina-Call2-action{
+
+        margin-bottom: 0.9rem;
+    }
+
+}

@@ -3,3 +3,16 @@
     margin: -6rem 8vw;
 
 }
+
+
+@media (max-width: 810px){
+
+
+.starwars{
+
+    margin: -6rem 2vw; 
+
+}
+    
+}
+ 

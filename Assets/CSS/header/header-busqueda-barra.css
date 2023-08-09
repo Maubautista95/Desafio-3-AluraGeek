@@ -3,7 +3,7 @@
     border-radius: 20px;
     width: 27.29vw;
     height: 40px;
-    padding-right: 3.29vw;
+    padding-right: 50px;
     padding-left: 5px;
     border: none;
     background: #F5F5F5;
@@ -11,3 +11,20 @@
 
 }
 
+@media (max-width: 420px){
+
+    .header-busqueda-barra{
+
+        display: none;
+
+    }
+
+    .header-barra-visible{
+
+        display: flex;
+        width: 90vw;
+        position: absolute;
+        right: 5%;
+    }
+
+}

@@ -4,3 +4,16 @@
     font-family: 700;
     text-shadow: 3px 3px 3px black;
 }
+
+
+@media (max-width: 385px) {
+    
+
+    .banner-titulo-secundario{
+
+        font-size: 0.87rem;
+
+    }
+
+
+}

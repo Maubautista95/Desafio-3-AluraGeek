@@ -2,3 +2,32 @@
 
     width: 12vw;
  }
+
+
+ @media (max-width: 810px){
+
+
+   .consolas-img-producto{
+
+       width: 21vw;
+
+   }
+   
+}
+
+
+
+   
+@media (max-width: 385px){
+
+
+   .consolas-img-producto{
+
+       width: 43vw;
+
+   }
+   
+}
+
+   
+

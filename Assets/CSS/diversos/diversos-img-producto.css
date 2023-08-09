@@ -1,4 +1,26 @@
  .diversos-img-producto{
 
     width: 12vw;
- }
+ } 
+
+ @media (max-width: 810px){
+
+
+   .diversos-img-producto{
+
+       width: 21vw;
+
+   }
+   
+}
+
+@media (max-width: 385px){
+
+
+   .diversos-img-producto{
+
+       width: 43vw;
+
+   }
+   
+}

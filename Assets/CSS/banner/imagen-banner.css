@@ -1,6 +1,31 @@
 .imagen-banner{
 
     width: 100vw;
+    height: 467px;
     
+
+}
+
+@media (max-width: 810px) {
+    
+
+    .imagen-banner{
+
+        height: 352px;
+
+    }
+
+
+}
+
+@media (max-width: 385px) {
+    
+
+    .imagen-banner{
+
+        height: 192px;
+
+    }
+
 
 }

@@ -1,5 +1,29 @@
-.consolas{
+.consolas {
 
     margin: 8rem 8vw 0 8vw;
+
+}
+
+@media (max-width: 810px) {
+
+
+    .consolas {
+
+        margin: 8rem 2vw;
+
+    }
+
+}
+
+
+@media (max-width: 385px) {
+
+
+    .consolas {
+
+        margin: 8rem 2vw;
+        margin-bottom: 2rem;
+
+    }
 
 }

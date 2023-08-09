@@ -3,3 +3,16 @@
     margin-bottom: 1.45vw;
 
 }
+
+
+@media (max-width: 384px) {
+
+
+
+    .pieDePagina-lista-item{
+
+        margin: 0.8rem 0;
+        text-align: center;
+    }
+
+}

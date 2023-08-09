@@ -1,3 +1,5 @@
 .header-busqueda{
     display: flex;
+    
+    align-items: center;
 }

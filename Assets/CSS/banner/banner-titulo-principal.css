@@ -7,3 +7,16 @@
     text-shadow: 3px 3px 3px black;
 
 }
+
+
+@media (max-width: 385px) {
+    
+
+    .banner-titulo-principal{
+        
+        font-size: 1.37rem;
+
+    }
+
+
+}

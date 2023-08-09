@@ -11,3 +11,18 @@
     box-shadow: 1px 1px 1px black;
 
 }
+
+
+@media (max-width: 360px) {
+    
+
+    .banner-button{
+
+        width: 118px;
+        height: 40px;
+        font-weight: 600;
+
+    }
+
+
+}

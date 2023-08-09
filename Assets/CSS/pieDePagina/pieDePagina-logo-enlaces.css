@@ -1,0 +1,27 @@
+.pieDePagina-logo-enlaces{
+
+    display: flex;
+    justify-content: space-between;
+    width: 33vw;
+
+}
+
+@media (max-width: 810px){
+
+    .pieDePagina-logo-enlaces{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 384px) {
+
+    .pieDePagina-logo-enlaces{
+
+        width: 80vw;
+        align-items: center;
+    }
+
+
+
+}

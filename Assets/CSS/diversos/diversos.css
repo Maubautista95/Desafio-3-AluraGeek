@@ -3,3 +3,26 @@
     margin: 2.5rem 8vw;
 
 }
+
+
+@media (max-width: 810px) {
+
+
+    .diversos {
+
+        margin: 8rem 2vw;
+
+    }
+
+}
+
+@media (max-width: 385px) {
+
+
+    .diversos{
+
+        margin: 2rem 2vw;
+
+    }
+
+}

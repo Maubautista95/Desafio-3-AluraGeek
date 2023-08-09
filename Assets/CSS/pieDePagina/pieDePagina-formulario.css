@@ -5,3 +5,27 @@
     width: 38vw;
 
 }
+
+
+@media (max-width: 810px) {
+
+
+    .pieDePagina-formulario{
+
+        width: 50vw;
+
+    }
+
+}
+
+@media (max-width: 384px) {
+
+
+    .pieDePagina-formulario{
+
+        margin-top: 16px;
+        width: 90vw;
+
+    }
+
+}
