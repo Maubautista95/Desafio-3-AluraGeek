@@ -1,0 +1,19 @@
+.productos-index-productos{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+}
+ 
+@media (max-width: 830px) {
+    .productos-index-productos {
+        
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+
+  }
+ 

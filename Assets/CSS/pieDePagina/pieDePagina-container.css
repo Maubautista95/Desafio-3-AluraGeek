@@ -1,14 +1,15 @@
 .pieDePagina-container{
     height: 66%;
-    vertical-align: middle;
+    vertical-align: top;
     margin: 0 6vw;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    box-sizing: border-box;
        
 }
 
-@media (max-width: 384px){
+@media (max-width: 430px){
 
     .pieDePagina-container{
         flex-direction: column;

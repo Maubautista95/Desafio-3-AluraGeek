@@ -1,0 +1,16 @@
+.todos-los-productos-img{
+
+    width: 12vw;
+}
+
+@media (max-width: 810px){
+    .todos-los-productos-img{
+    width: 19vw;
+    }
+}
+ 
+@media (max-width: 430px){
+    .todos-los-productos-img{
+    width: 40vw;
+    }
+}

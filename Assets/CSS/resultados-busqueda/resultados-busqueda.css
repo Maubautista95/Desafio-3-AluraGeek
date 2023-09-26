@@ -1,0 +1,13 @@
+.resultados-busqueda {
+
+    margin: 6rem 0;
+
+
+}
+
+@media (max-width: 810px) {
+
+    .resultados-busqueda {
+        margin: 3rem 0;
+    }
+}

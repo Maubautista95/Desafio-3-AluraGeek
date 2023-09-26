@@ -11,7 +11,7 @@
 
 }
 
-@media (max-width: 420px){
+@media (max-width: 430px){
 
     .header-busqueda-barra{
 
@@ -22,7 +22,7 @@
     .header-barra-visible{
 
         display: flex;
-        width: 90vw;
+        width: 70vw;
         position: absolute;
         right: 5%;
     }

@@ -1,0 +1,8 @@
+.todos-los-productos-box-button{
+
+    display: flex;
+    position: relative;
+    top: 33px;
+    left: 7vw;
+    gap: 6px;
+}

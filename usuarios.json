@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+      {
+        "userId": "#11111111",
+        "nombre": "AluraBot",
+        "correo": "bot@alura.com",
+        "contraseña": "computerscience"
+      }
+    ]
+  }

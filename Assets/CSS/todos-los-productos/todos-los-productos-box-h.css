@@ -1,0 +1,18 @@
+.todos-los-productos-box-h{
+
+    margin: 0.4rem 0;
+    font-weight: 500;
+}
+
+@media (max-width: 810px){
+    .todos-los-productos-box-h{
+    width: 18vw;
+    }
+}
+
+
+@media (max-width: 390px){
+    .todos-los-productos-box-h{
+    max-width: 35vw;
+    }
+}

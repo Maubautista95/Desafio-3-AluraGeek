@@ -18,13 +18,13 @@
 
 }
 
-@media (max-width: 384px) {
+@media (max-width: 430px) {
 
 
     .pieDePagina-formulario{
 
         margin-top: 16px;
-        width: 90vw;
+        width: 90vw;    
 
     }
 

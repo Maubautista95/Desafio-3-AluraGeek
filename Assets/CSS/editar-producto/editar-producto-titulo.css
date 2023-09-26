@@ -1,0 +1,15 @@
+.editar-producto-titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+@media (max-width: 815px){
+
+    .editar-producto-titulo{
+        font-size: 1.5rem;
+    }
+
+}

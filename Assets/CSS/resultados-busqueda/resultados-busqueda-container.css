@@ -1,0 +1,22 @@
+.resultados-busqueda-container {
+
+    display: flex;
+    padding: 5vw 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width: 810px){
+
+    .resultados-busqueda-container {
+
+        padding-bottom: 30px;
+    
+    }
+
+
+}

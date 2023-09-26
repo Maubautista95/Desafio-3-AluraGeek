@@ -1,0 +1,20 @@
+.nuevo-producto-text{
+
+    margin: 4px 0;
+    padding: 6px 6px;
+    width: 30vw;
+    font-size: 0.75rem;
+    font-family: "Raleway", sans-serif;
+    border-color: transparent;
+    
+
+}
+
+
+@media (max-width: 815px){
+
+    .nuevo-producto-text{
+        width: 80vw;
+    }
+
+}

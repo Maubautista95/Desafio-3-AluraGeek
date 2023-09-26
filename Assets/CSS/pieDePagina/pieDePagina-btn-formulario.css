@@ -6,13 +6,14 @@
     width: 144px;
 }
 
-@media (max-width: 384px) {
+@media (max-width: 390px) {
 
 
     .pieDePagina-btn-formulario{
 
         height: 40px;
         width: 133px;
+        
     }
 
 }

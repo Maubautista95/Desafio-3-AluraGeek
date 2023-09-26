@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,45 +36,34 @@
     <link href="/Assets/CSS/banner/banner-titulo-secundario.css" rel="stylesheet">
     <link href="/Assets/CSS/banner/banner-button.css" rel="stylesheet">
     <link href="/Assets/CSS/banner/banner.css" rel="stylesheet">
+    
     <!--Sección Star Wars-->
     <link href="Assets/CSS/starwars/starwars.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-vertodo.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-productos.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-box.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-icono-flecha.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-box-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-img-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-precio-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-link-all.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-link-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/starwars/starwars-encabezado.css" rel="stylesheet">
+
     <!--Sección consolas-->
-    <link href="Assets/CSS/consolas/consolas-box.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-encabezado.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-icono-flecha.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-img-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-link-all.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-precio-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-productos.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-box-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-ver-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/consolas/consolas-vertodo.css" rel="stylesheet">
+
     <link href="Assets/CSS/consolas/consolas.css" rel="stylesheet">
+
     <!--Sección diversos-->
-    <link href="Assets/CSS/diversos/diversos-box.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-encabezado.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-icono-flecha.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-img-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-link-all.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-precio-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-productos.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-box-titulo.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-ver-producto.css" rel="stylesheet">
-    <link href="Assets/CSS/diversos/diversos-vertodo.css" rel="stylesheet">
+
     <link href="Assets/CSS/diversos/diversos.css" rel="stylesheet">
+    
+    <!--Productos index-->
+
+    <link href="Assets/CSS/productos-index/productos-index-box.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-productos.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-img.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-encabezado.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-titulo.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-link-all.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-icono-flecha.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-ver-todo.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-box-titulo.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-precio.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-link.css" rel="stylesheet">
+    <link href="Assets/CSS/productos-index/productos-index-link-a.css" rel="stylesheet">
+
+
 
     <!--Sección quienes somos y contacto-->
 
@@ -104,7 +94,7 @@
 <body>
     <header>
         <nav class="header">
-
+            <a href="index.html" style="text-decoration: none;">
             <div class="header-titulo">
                 <div class="header-titulo">
 
@@ -112,9 +102,11 @@
                         alt="Ícono de mando de videojuegos">
                     <h1 class="header-letra-azul">Alura</h1>
                     <h1 class="header-letra-oscura">Geek</h1>
+                 
                 </div>
+            
             </div>
-
+            </a>
             <div class="header-login-busqueda">
 
                 <div class="header-busqueda">
@@ -122,7 +114,7 @@
                     <button class="header-busqueda-lupa" data-attribute-lupa></button>
                 </div>
 
-                <button class="header-login-button">Login</button>
+                <a href="Inicio_de_sesion.html"><button class="header-login-button">Login</button></a>
 
             </div>
         </nav>
@@ -136,155 +128,47 @@
         <div class="banner-content">
             <h2 class="banner-titulo-principal">Febrero Promocional</h2>
             <h3 class="banner-titulo-secundario">Productos seleccionados con 33% de descuento</h3>
-            <button class="banner-button">Ver Consolas</button>
+            <a href="/ver-consolas.html"><button class="banner-button">Ver Consolas</button></a>
         </div>
     </section>
 
     <section class="starwars">
-        <div class="starwars-encabezado">
-            <h2 class="starwars-titulo">Star Wars</h2>
-            <div class="starwars-link-all">
-                <href class="starwars-vertodo">Ver todo</href>
+        <div class="productos-index-encabezado">
+            <h2 class="productos-index-titulo">Star Wars</h2>
+            <div class="productos-index-link-all">
+                <a href="todos_los_productos.html" class="productos-index-link-a"> <h3 class="productos-index-ver-todo"></h3>Ver todo</h3></a>
                 <img src="Assets/Pictures/flecha-ver-mas.svg" alt="" class="starwars-icono-flecha">
             </div>
         </div>
-        <div class="starwars-productos">
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars1.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars2.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars3.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars4.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars5.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
-            <div class="starwars-box">
-                <img src="Assets/Pictures/starwars6.jpg" alt="" class="starwars-img-producto">
-                <h3 class="starwars-box-titulo">ProductoXYZ</h3>
-                <p class="starwars-precio-producto">$60.0</p>
-                <href class="starwars-link-producto">Ver producto</href>
-            </div>
+        <div class="productos-index-productos" data-star-container>
+            
         </div>
     </section>
 
     <section class="consolas">
-        <div class="consolas-encabezado">
-            <h2 class="consolas-titulo">Consolas</h2>
-            <div class="consolas-link-all">
-                <p class="consolas-vertodo">Ver todo</p>
-                <img src="Assets/Pictures/flecha-ver-mas.svg" alt="" class="consolas-icono-flecha">
+        <div class="productos-index-encabezado">
+            <h2 class="productos-index-titulo">Consolas</h2>
+            <div class="productos-index-link-all">
+                <a href="todos_los_productos.html" class="productos-index-link-a"> <h3 class="productos-index-ver-todo"></h3>Ver todo</h3></a>
+                <img src="Assets/Pictures/flecha-ver-mas.svg" alt="" class="productos-index-icono-flecha">
             </div>
         </div>
-        <div class="consolas-productos">
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas1.jpg" alt="Control Xbox Series" class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">ControlXYZ</h3>
-                <p class="consolas-precio-producto">$60.00</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas2.jpg" alt="Play Station 4" class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">ConsolaXYZ</h3>
-                <p class="consolas-precio-producto">$60.0</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas3.jpg" alt="Consola vintage de Nintendo"
-                    class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">Consola XYZ </h3>
-                <p class="consolas-precio-producto">$60.0</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas4.png" alt="Controles Nintendo Switch" class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">Controles XYZ</h3>
-                <p class="consolas-precio-producto">$60.0</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas5.jpg" alt="Xbox Series X" class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">Xbox Series X</h3>
-                <p class="consolas-precio-producto">$60.0</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-            <div class="consolas-box">
-                <img src="Assets/Pictures/Consolas6.jpg" alt="Game Boy Advance personalizados"
-                    class="consolas-img-producto">
-                <h3 class="consolas-box-titulo">Game Boy Color</h3>
-                <p class="consolas-precio-producto">$60.0</p>
-                <p class="consolas-link-producto">Ver producto</p>
-            </div>
-        </div>
+        <div class="productos-index-productos" data-consolas-container>
+
+         </div>
     </section>
 
 
     <section class="diversos">
-        <div class="diversos-encabezado">
-            <h2 class="diversos-titulo">Diversos</h2>
-            <div class="diversos-link-all">
-                <p class="diversos-vertodo">Ver todo</p>
-                <img src="Assets/Pictures/flecha-ver-mas.svg" alt="" class="diversos-icono-flecha">
+        <div class="productos-index-encabezado">
+            <h2 class="productos-index-titulo">Diversos</h2>
+            <div class="productos-index-link-all">
+                <a href="todos_los_productos.html" class="productos-index-link-a"> <h3 class="productos-index-ver-todo"></h3>Ver todo</h3></a>
+                <img src="Assets/Pictures/flecha-ver-mas.svg" alt="" class="productos-index-icono-flecha">
             </div>
         </div>
-        <div class="diversos-productos">
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos1.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">ControlXYZ</h3>
-                <p class="diversos-precio-producto">$60.00</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos2.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">ConsolaXYZ</h3>
-                <p class="diversos-precio-producto">$60.0</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos3.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">Consola XYZ </h3>
-                <p class="diversos-precio-producto">$60.0</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos4.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">Consola XYZ </h3>
-                <p class="diversos-precio-producto">$60.0</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos5.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">Consola XYZ </h3>
-                <p class="diversos-precio-producto">$60.0</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-            <div class="diversos-box">
-                <img src="Assets/Pictures/Diversos6.jpg" alt="" class="diversos-img-producto">
-                <h3 class="diversos-box-titulo">Consola XYZ </h3>
-                <p class="diversos-precio-producto">$60.0</p>
-                <p class="diversos-link-producto">Ver producto</p>
-            </div>
-        </div>
+        <div class="productos-index-productos" data-diversos-container>
+
         </div>
     </section>
 
@@ -313,19 +197,20 @@
                     <li class="pieDePagina-lista-item"><a class="pieDePagina-link" href="#">Anúncie aquí</a></li>
                 </ul>
             </div>
-            <div class="pieDePagina-contacto">
 
-                <form action="" class="pieDePagina-formulario">
-                    <h3 class="pieDePagina-Call2-action">Hable con nosotros</h3>
-                    <input class="pieDePagina-field, pieDePagina-field-nombre" id="nombre" placeholder="Nombre" required
-                        datta-att-nombre>
-
-                    <textarea class="pieDePagina-field" class="pieDePagina-textArea" id="" cols="30" rows="10"
-                        placeholder="Escribe tu mensaje" datta-att-textarea required></textarea>
-
-                    <button class="pieDePagina-btn-formulario" datta-att-button>Enviar mensaje</button>
-                </form>
-            </div>
+            <form class="pieDePagina-formulario" id="contactForm">
+                <h3 class="pieDePagina-Call2-action">Hable con nosotros</h3>
+                <input class="pieDePagina-field, pieDePagina-field-nombre" id="nombre" name="nombre" placeholder="Nombre" 
+                title="Ingrese un nombre válido (máximo 40 caracteres)" maxlength="40">
+                <div class="error-message" id="nombre-error"></div>
+            
+                <textarea class="pieDePagina-field pieDePagina-textArea" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"
+                title="Ingrese un mensaje válido (máximo 120 caracteres)" maxlength="120"></textarea>
+                <div class="error-message" id="mensaje-error"></div>
+            
+                <button class="pieDePagina-btn-formulario" type="submit" id="enviar">Enviar mensaje</button>
+            </form>
+            
     </section>
     </div>
 
@@ -339,6 +224,8 @@
     </footer>
 
 <script src="search-bar-app.js"></script>
+<script src="validar-pie.js"></script>
+<script src="Scripts/index/mostrar-productos.js"></script>
 </body>
 
 </html>

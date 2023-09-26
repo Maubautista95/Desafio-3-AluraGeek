@@ -1,6 +1,9 @@
 .diversos{
 
-    margin: 2.5rem 8vw;
+    margin: 2.5rem 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    
 
 }
 
@@ -10,13 +13,13 @@
 
     .diversos {
 
-        margin: 8rem 2vw;
+        margin: 8rem 0;
 
     }
 
 }
 
-@media (max-width: 385px) {
+@media (max-width: 430px) {
 
 
     .diversos{

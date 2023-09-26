@@ -1,9 +1,10 @@
 .header{
-
+    margin: 0 -9vw;
     display: flex;
     justify-content: space-between;
     padding: 3rem 9vw;
     align-items: center;
+    background-color: white;
 
 }
 
@@ -13,14 +14,15 @@
     .header{
 
         height: 74px;
-        padding: 0.5rem 3.5vw;
+        padding: 0.5rem 6vw;
     }
 
 }
 
-@media (max-width: 420px){
+@media (max-width: 430px){
 
     .header{
-        margin: 0 2vw;
+        margin: 0 -7vw;
+
     }
 }

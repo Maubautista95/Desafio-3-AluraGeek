@@ -1,0 +1,13 @@
+.productos-index-encabezado{
+    margin: 0.6rem 1vw 2rem 1vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 420px){
+
+    .productos-index-encabezado{
+        margin: 0.6rem 3vw 2rem 3vw;
+    }
+}

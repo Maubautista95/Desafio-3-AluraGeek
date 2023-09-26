@@ -1,0 +1,17 @@
+.nuevo-producto-button{
+
+    background-color: #2A7AE4;
+    padding: 17px 0;
+    color: white;
+    margin-top: 8px;
+    width: 30vw;
+}
+
+
+@media (max-width: 815px){
+
+    .nuevo-producto-button{
+        width: 80vw;
+    }
+
+}

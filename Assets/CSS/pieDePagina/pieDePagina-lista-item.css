@@ -5,13 +5,12 @@
 }
 
 
-@media (max-width: 384px) {
+@media (max-width: 430px) {
 
 
 
     .pieDePagina-lista-item{
 
-        margin: 0.8rem 0;
         text-align: center;
     }
 

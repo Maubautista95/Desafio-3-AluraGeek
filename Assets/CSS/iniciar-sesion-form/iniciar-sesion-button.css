@@ -1,0 +1,23 @@
+.iniciar-sesion-button{
+    margin-top: 5px;
+    color: white;
+    background-color: #2A7AE4;
+    padding: 23px 0;
+    width: 423px;
+    text-align: center;
+    
+}
+
+.iniciar-sesion-button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 810px){
+
+    .iniciar-sesion-button{
+        width: 109px;
+        padding: 12px 0;
+        box-sizing: border-box;
+       
+    }
+}

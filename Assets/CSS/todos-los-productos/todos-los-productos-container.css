@@ -1,0 +1,13 @@
+.todos-los-productos-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 810px){
+    .todos-los-productos-container{
+        gap: 4vw;
+    }
+}
