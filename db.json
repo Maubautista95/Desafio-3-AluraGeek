@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "urlImagen": "/assets/Pictures/starwars1.jpg",
+      "urlImagen": "/Assets/Pictures/starwars1.jpg",
       "categoria": "Star Wars",
       "nombre": "Tasa StormTrooper",
       "precio": 500,
@@ -9,7 +9,7 @@
       "id": "1"
     },
     {
-      "urlImagen": "/assets/Pictures/starwars2.jpg",
+      "urlImagen": "/Assets/Pictures/starwars2.jpg",
       "categoria": "Star Wars",
       "nombre": "Figura de Darth Vader",
       "precio": 20,
@@ -17,7 +17,7 @@
       "id": "2"
     },
     {
-      "urlImagen": "/assets/Pictures/starwars3.jpg",
+      "urlImagen": "/Assets/Pictures/starwars3.jpg",
       "categoria": "Star Wars",
       "nombre": "Yoda",
       "precio": 20,
@@ -25,7 +25,7 @@
       "id": "3"
     },
     {
-      "urlImagen": "/assets/Pictures/starwars4.jpg",
+      "urlImagen": "/Assets/Pictures/starwars4.jpg",
       "categoria": "Star Wars",
       "nombre": "Figura StormTrooper",
       "precio": "20",
@@ -33,7 +33,7 @@
       "id": "4"
     },
     {
-      "urlImagen": "/assets/Pictures/starwars5.jpg",
+      "urlImagen": "/Assets/Pictures/starwars5.jpg",
       "categoria": "Star Wars",
       "nombre": "Baby Yoda",
       "precio": "20",
@@ -41,7 +41,7 @@
       "id": "5"
     },
     {
-      "urlImagen": "/assets/Pictures/starwars6.jpg",
+      "urlImagen": "/Assets/Pictures/starwars6.jpg",
       "categoria": "Star Wars",
       "nombre": "Darth Vader",
       "precio": "20",
@@ -57,7 +57,7 @@
       "id": "7"
     },
     {
-      "urlImagen": "/assets/Pictures/consolas2.jpg",
+      "urlImagen": "/Assets/Pictures/consolas2.jpg",
       "categoria": "Consolas",
       "nombre": "Play Station 4",
       "precio": "700",
@@ -65,7 +65,7 @@
       "id": "8"
     },
     {
-      "urlImagen": "/assets/Pictures/consolas3.jpg",
+      "urlImagen": "/Assets/Pictures/consolas3.jpg",
       "categoria": "Consolas",
       "nombre": "Nintendo Vintage",
       "precio": "20",
@@ -73,7 +73,7 @@
       "id": "9"
     },
     {
-      "urlImagen": "/assets/Pictures/Consolas4.png",
+      "urlImagen": "/Assets/Pictures/Consolas4.png",
       "categoria": "Consolas",
       "nombre": "Control Nintendo",
       "precio": "20",
@@ -81,7 +81,7 @@
       "id": "10"
     },
     {
-      "urlImagen": "/assets/Pictures/consolas5.jpg",
+      "urlImagen": "/Assets/Pictures/consolas5.jpg",
       "categoria": "Consolas",
       "nombre": "Xbox Series X",
       "precio": "20",
@@ -89,7 +89,7 @@
       "id": "11"
     },
     {
-      "urlImagen": "/assets/Pictures/consolas6.jpg",
+      "urlImagen": "/Assets/Pictures/consolas6.jpg",
       "categoria": "Consolas",
       "nombre": "Game Boy Color",
       "precio": "20",
@@ -97,7 +97,7 @@
       "id": "12"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos1.jpg",
+      "urlImagen": "/Assets/Pictures/diversos1.jpg",
       "categoria": "Diversos",
       "nombre": "Camiseta Atari",
       "precio": "400",
@@ -105,7 +105,7 @@
       "id": "13"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos2.jpg",
+      "urlImagen": "/Assets/Pictures/diversos2.jpg",
       "categoria": "Diversos",
       "nombre": "Control para consolas",
       "precio": "20",
@@ -113,7 +113,7 @@
       "id": "14"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos3.jpg",
+      "urlImagen": "/Assets/Pictures/diversos3.jpg",
       "categoria": "Diversos",
       "nombre": "Figura Sonic",
       "precio": "300",
@@ -121,7 +121,7 @@
       "id": "15"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos4.jpg",
+      "urlImagen": "/Assets/Pictures/diversos4.jpg",
       "categoria": "Diversos",
       "nombre": "Reloj despertador",
       "precio": "100",
@@ -129,7 +129,7 @@
       "id": "16"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos5.jpg",
+      "urlImagen": "/Assets/Pictures/diversos5.jpg",
       "categoria": "Diversos",
       "nombre": "Lentes VR",
       "precio": "20",
@@ -137,7 +137,7 @@
       "id": "17"
     },
     {
-      "urlImagen": "/assets/Pictures/diversos6.jpg",
+      "urlImagen": "/Assets/Pictures/diversos6.jpg",
       "categoria": "Diversos",
       "nombre": "Pikachu",
       "precio": "350",
