@@ -3,7 +3,7 @@
 const starWarsContainer = document.querySelector('[data-star-container]');
 const filtrarStar = 'Star Wars';
 
-fetch('https://github.com/Maubautista95/Desafio-3-AluraGeek/blob/main/db.json')
+fetch('http://localhost:4000/productos')
   .then(response => response.json())
   .then(data => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
@@ -50,7 +50,7 @@ fetch('https://github.com/Maubautista95/Desafio-3-AluraGeek/blob/main/db.json')
 const consolasContainer =  document.querySelector('[data-consolas-container]');
 const filtrarConsolas = "Consolas"
 
-fetch('https://github.com/Maubautista95/Desafio-3-AluraGeek/blob/main/db.json')
+fetch('http://localhost:4000/productos')
   .then(response => response.json())
   .then(data => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
@@ -97,7 +97,7 @@ const diversosContainer =  document.querySelector('[data-diversos-container]');
 
 const filtrarDiversos = "Diversos"
 
-fetch('https://github.com/Maubautista95/Desafio-3-AluraGeek/blob/main/db.json')
+fetch('http://localhost:4000/productos')
   .then(response => response.json())
   .then(data3 => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
