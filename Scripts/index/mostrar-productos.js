@@ -50,7 +50,7 @@ fetch('https://desafio-3-alura-geek.vercel.app/db.json/')
 const consolasContainer =  document.querySelector('[data-consolas-container]');
 const filtrarConsolas = "Consolas"
 
-fetch('http://localhost:4000/productos')
+fetch('https://desafio-3-alura-geek.vercel.app/db.json/')
   .then(response => response.json())
   .then(data => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
@@ -97,7 +97,7 @@ const diversosContainer =  document.querySelector('[data-diversos-container]');
 
 const filtrarDiversos = "Diversos"
 
-fetch('http://localhost:4000/productos')
+fetch('https://desafio-3-alura-geek.vercel.app/db.json/')
   .then(response => response.json())
   .then(data3 => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
