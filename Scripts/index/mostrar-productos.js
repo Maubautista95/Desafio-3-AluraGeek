@@ -3,7 +3,7 @@
 const starWarsContainer = document.querySelector('[data-star-container]');
 const filtrarStar = 'Star Wars';
 
-fetch('http://localhost:4000/productos')
+fetch('https://desafio-3-alura-geek.vercel.app/db.json/')
   .then(response => response.json())
   .then(data => {
     let referenciasAgregadas = 0; // Variable para contar las referencias agregadas
