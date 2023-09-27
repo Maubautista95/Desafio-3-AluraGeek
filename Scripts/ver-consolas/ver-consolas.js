@@ -10,16 +10,7 @@ fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
         productoBox.className = 'todos-los-productos-box';
 
         const buttonContainer = document.createElement('div');
-        buttonContainer.className = 'todos-los-productos-box-button';
-
-        const eliminarButton = document.createElement('button');
-        eliminarButton.className = 'todos-los-productos-eliminar';
-
-        const editarButton = document.createElement('button');
-        editarButton.className = 'todos-los-productos-editar';
-
-        buttonContainer.appendChild(eliminarButton);
-        buttonContainer.appendChild(editarButton);
+        buttonContainer.className = 'todos-los-productos-box-button';           
 
         const imagenElement = document.createElement('img');
         imagenElement.className = 'todos-los-productos-img';
@@ -34,15 +25,10 @@ fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
         precioElement.className = 'todos-los-productos-precio';
         precioElement.textContent = `$${producto.precio}`;
 
-        const idElement = document.createElement('p');
-        idElement.className = 'todos-los-productos-box-id';
-        idElement.textContent = producto.id;
-
         productoBox.appendChild(buttonContainer);
         productoBox.appendChild(imagenElement);
         productoBox.appendChild(nombreElement);
         productoBox.appendChild(precioElement);
-        productoBox.appendChild(idElement);
 
         productosContainer.appendChild(productoBox);
       }

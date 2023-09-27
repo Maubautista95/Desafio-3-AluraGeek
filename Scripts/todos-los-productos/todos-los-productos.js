@@ -23,6 +23,8 @@ fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
       const categoriaElement = document.createElement('p');
       categoriaElement.textContent = producto.categoria;
 
+      
+
       productoBox.appendChild(imagenElement);
       productoBox.appendChild(nombreElement);
       productoBox.appendChild(precioElement);
