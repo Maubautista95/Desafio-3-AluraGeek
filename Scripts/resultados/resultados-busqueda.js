@@ -13,7 +13,7 @@ tituloResultados.textContent = `Resultados para tu búsqueda sobre ${searchTerm}
 const resultadosContainer = document.querySelector('[data-resultados-container]');
 
 
-fetch('http://localhost:4000/productos')
+fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
   .then(response => response.json())
   .then(data => {
     data.forEach(producto => {

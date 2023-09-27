@@ -1,7 +1,7 @@
 const productosContainer = document.querySelector('[data-attribute-ver-consolas]');
 const categoriaFiltrada = 'Consolas'; // Categoría que deseas filtrar
 
-fetch('http://localhost:4000/productos')
+fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
   .then(response => response.json())
   .then(data => {
     data.forEach(producto => {

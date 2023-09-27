@@ -19,13 +19,14 @@ const errorDiv = document.querySelector('[data-att-error-div]');
 
 function verificarCredenciales(email, password) {
   // Realiza una solicitud para obtener la lista de usuarios desde la base de datos
-  return fetch('http://localhost:4000/usuarios')
+  return fetch('https://fake-api-alura-geek-delta.vercel.app/usuarios')
     .then(response => response.json())
     .then(usuarios => {
       // Itera sobre la lista de usuarios y verifica si las credenciales coinciden
       for (const usuario of usuarios) {
         if (usuario.email === email && usuario.password === password) {
           return true; // Las credenciales coinciden
+          
         }
       }
       return false; // Las credenciales no coinciden con ningún usuario

@@ -63,7 +63,7 @@ nuevoProductoForm.addEventListener('submit', async (event) => {
 
   try {
     // Realizamos una solicitud fetch para agregar un nuevo producto al servidor
-    const response = await fetch('http://localhost:4000/productos', {
+    const response = await fetch('https://fake-api-alura-geek-delta.vercel.app/productos', {
       method: 'POST', // Usamos el método POST para agregar un nuevo producto
       headers: {
         'Content-Type': 'application/json', // Indicamos que estamos enviando datos JSON

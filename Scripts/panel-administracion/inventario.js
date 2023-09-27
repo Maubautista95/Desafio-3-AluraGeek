@@ -2,7 +2,7 @@ const productosContainer = document.querySelector('[data-attribute-todos-los-pro
 const editForm = document.querySelector('[data-edit-form]'); // Asegúrate de seleccionar el formulario de edición
 let productoAEditar = {}; // Variable global para mantener el producto que se está editando
 
-fetch('http://localhost:4000/productos')
+fetch('https://fake-api-alura-geek-delta.vercel.app/productos')
   .then(response => response.json())
   .then(data => {
     data.forEach(producto => {
@@ -60,7 +60,7 @@ fetch('http://localhost:4000/productos')
   .catch(error => console.error('Error fetching data:', error));
 
 function eliminarProducto(productId) {
-  fetch(`http://localhost:4000/productos/${productId}`, {
+  fetch(`https://fake-api-alura-geek-delta.vercel.app/productos/${productId}`, {
     method: 'DELETE',
   })
     .then(response => {
@@ -122,7 +122,7 @@ editForm.addEventListener('submit', (e) => {
   const productId = productoAEditar.id;
 
   // Realizamos una solicitud PUT para actualizar el producto en el servidor
-  fetch(`http://localhost:4000/productos/${productId}`, {
+  fetch(`https://fake-api-alura-geek-delta.vercel.app/productos/${productId}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
